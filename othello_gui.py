@@ -4,10 +4,6 @@ import point
 
 DEFAULT_FONT = ('Helvetica', 20)
 
-# 1. Make an intro window that asks if they want to play 2players or vs a cpu and keep track of that wheter its cpu or human
-# 2. The current intro window can stay as well as setting up the board cause itll be the same for both of them
-# 3. Might need to make a new class vs CPU othello
-
 class start:
     def __init__(self):
         self._root_window = tkinter.Tk()
